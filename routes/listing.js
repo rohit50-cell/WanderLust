@@ -6,7 +6,7 @@
   const wrapAsync=require("../utils/wrapAsync.js");
   // const ExpressError=require("../utils/ExpressError.js")
   // const {listingSchema,reviewSchema}=require("../schema.js")
-  const Listing=require("../models/list.js")
+  const Listing=require("../Models/list.js")
   const {isLoggedin,isOwner,validateListing}=require("../middleware.js");
 
   //const { index } = require("../controllers/listing.js");// this is for the Controlller Middleware
