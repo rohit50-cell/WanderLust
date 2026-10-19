@@ -1,4 +1,4 @@
- const Listing=require("../Models/list.js");
+ const Listing=require("../models/list.js");
 const ExpressError=require("./utils/ExpressError.js")
 const {listingSchema,reviewSchema}=require("./schema.js");
 const Review=require("./models/review.js")
