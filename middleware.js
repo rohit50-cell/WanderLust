@@ -1,7 +1,7 @@
 const Listing=require("./Models/list.js");
 const ExpressError=require("./utils/ExpressError.js")
 const {listingSchema,reviewSchema}=require("./schema.js");
-const Review=require("./models/review.js")
+const Review=require("./Models/review.js")
 
 //This function is for the  authencaite the user wheather the user is loggen in or not to create the list 
 module.exports.isLoggedin=(req,res,next) =>{
