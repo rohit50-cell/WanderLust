@@ -4,7 +4,7 @@ const wrapAsync=require("../utils/wrapAsync.js");
 const ExpressError=require("../utils/ExpressError.js")
 const {reviewSchema}=require("../schema.js")// listingSchema is the joy schema so we can remove 
 const Review=require("../models/review.js")
-const Listing=require("../models/list.js")
+const Listing=require("../Models/list.js")
 const {validateReview,isLoggedin, isReviewAuthor}=require("../middleware.js");
 const reviewController = require("../controllers/review.js");
 

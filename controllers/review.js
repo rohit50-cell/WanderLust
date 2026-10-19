@@ -1,4 +1,4 @@
-const Listing=require("../models/list");
+const Listing=require("../Models/list.js");
 const Review=require("../models/review");
 
 // These all things for the  Review route Controllers
